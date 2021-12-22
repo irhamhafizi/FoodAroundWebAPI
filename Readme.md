@@ -1,0 +1,2 @@
+# Scaffolding database to DAL
+Scaffold-DbContext "Data Source=DESKTOP-UI28E21;User ID=sa;Password=serverr;Initial Catalog=FoodAroundDB;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer –OutputDir Models -f

@@ -8,4 +8,10 @@
     <ProjectReference Include="..\DAL\DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="NawaEncryption">
+      <HintPath>..\..\..\..\PT Nawa Data Solutions\Pelatihan\Phase2\Day 7 jwt token enkripsi\NawaEncryption.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
