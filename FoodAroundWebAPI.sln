@@ -3,16 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodAroundWebAPI", "FoodAroundWebAPI\FoodAroundWebAPI.csproj", "{FB5DEAB8-C4F5-42F4-9DEA-72AB233091B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodAroundWebAPI", "FoodAroundWebAPI\FoodAroundWebAPI.csproj", "{FB5DEAB8-C4F5-42F4-9DEA-72AB233091B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{B41A9C32-16A1-48CA-A0B4-690ABF661903}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{B41A9C32-16A1-48CA-A0B4-690ABF661903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{8914D01F-14B4-49B8-ACB8-5E1525ACB509}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{8914D01F-14B4-49B8-ACB8-5E1525ACB509}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60AFF897-DC2A-4F24-B9C1-408E1D0E8DC9}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pictures", "Pictures", "{EBB36484-1E34-4F42-A984-6FB47A4FA9AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StorePicture", "StorePicture", "{66AC7ADA-F506-4570-8EE0-1FE51D91EA0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBB36484-1E34-4F42-A984-6FB47A4FA9AE} = {60AFF897-DC2A-4F24-B9C1-408E1D0E8DC9}
+		{66AC7ADA-F506-4570-8EE0-1FE51D91EA0A} = {EBB36484-1E34-4F42-A984-6FB47A4FA9AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D2F64AB5-C245-4A9C-A7D2-CC9FE7285906}
