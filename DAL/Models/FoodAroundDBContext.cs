@@ -39,7 +39,7 @@ namespace DAL.Models
             modelBuilder.Entity<MsLogin>(entity =>
             {
                 entity.HasKey(e => e.PkLoginId)
-                    .HasName("PK__ms_login__2DD7993DBC448347");
+                    .HasName("PK__ms_login__2DD7993DE0BE0211");
 
                 entity.ToTable("ms_login");
 
@@ -66,6 +66,10 @@ namespace DAL.Models
                     .HasMaxLength(10)
                     .IsUnicode(false)
                     .HasColumnName("login_pin");
+
+                entity.Property(e => e.LoginSalt)
+                    .IsUnicode(false)
+                    .HasColumnName("login_salt");
 
                 entity.Property(e => e.ModifiedBy).IsUnicode(false);
 
